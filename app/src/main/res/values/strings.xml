@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">QAT</string>
+    <string name="app_title">Quantitative Aptitude Test</string>
+    <string name="app_quote">\"take test a day, make your failure away\"</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_phone_number">Phone No.(optional)</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="not_an_user_sign_up"><u>Not an user? SIGN UP!</u></string>
+    <string name="already_user_sign_in"><u>Already an user? SIGN IN!</u></string>
+    <string name="quantitative_aptitude">QUANTITATIVE APTITUDE</string>
+    <string name="title_topics">Topics</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="topic_dummy">topic dummy</string>
+    <string name="dummy_topic_name">Problems On Ages</string>
+    <string name="dummy_set_no">Set - 8</string>
+    <string name="text_internet_connection">Please ! Make Sure You Have an Internet Connection</string>
+    <string name="submit">Submit</string>
+    <string name="option">Option</string>
+    <string name="dummy_question">Solve the given equation Solve the given equation Solve the given equation Solve the given equation Solve the given equation Solve the given equation</string>
+    <string name="dummy_q_no">Q1:</string>
+    <string name="score_card">SCORE CARD</string>
+    <string name="attempt_dummy">attempt_dummy</string>
+    <string name="correct_dummy">Correct : 8</string>
+    <string name="incorrect_dummy">Incorrect : 0</string>
+    <string name="marks_dummy">Marks : 8</string>
+    <string name="take_another_set_to_solve"><u>TAKE ANOTHER SET TO SOLVE</u></string>
+    <string name="click_to_see">Click Here to See Results</string>
+    <string name="don_t">don\'t answered</string>
+
+
+</resources>

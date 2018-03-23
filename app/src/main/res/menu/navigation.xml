@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_topic"
+        android:icon="@mipmap/ic_dehaze_white_24dp"
+        android:title="@string/title_topics" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@mipmap/ic_history_white_24dp"
+        android:title="@string/title_history" />
+
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@mipmap/ic_person_white_24dp"
+        android:title="@string/title_profile" />
+
+</menu>

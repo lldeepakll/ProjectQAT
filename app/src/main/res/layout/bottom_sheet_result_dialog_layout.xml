@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:id="@+id/main_land_bottom_ll"
+    android:background="@color/colorMainTransparentToo"
+    android:paddingTop="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:alpha="0.2"
+            android:src="@drawable/background_app" />
+
+
+        <com.deepak.projectqat.app.FadingTextView
+            android:id="@+id/score_text_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.2dp"
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/score_text_dialog"
+            android:background="@color/colorWhite"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/attempt_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:text="@string/attempt_dummy" />
+
+        <TextView
+            android:id="@+id/correct_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/attempt_text_view"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:text="@string/correct_dummy" />
+
+        <TextView
+            android:id="@+id/incorrect_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"
+            android:layout_below="@id/correct_text_view"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/incorrect_dummy" />
+
+        <TextView
+            android:id="@+id/marks_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"
+            android:layout_below="@id/incorrect_text_view"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/marks_dummy" />
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/take_another_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/take_another_set_to_solve"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

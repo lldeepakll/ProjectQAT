@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "943688374774",
+    "firebase_url": "https://quantapp-b6857.firebaseio.com",
+    "project_id": "quantapp-b6857",
+    "storage_bucket": "quantapp-b6857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943688374774:android:e14d790cb8c0eedc",
+        "android_client_info": {
+          "package_name": "com.deepak.projectqat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943688374774-o21ne4lgvalsktc14f37732pu63fhlsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deepak.projectqat",
+            "certificate_hash": "a1e5bc0509b659dff66b260e1c28526d2ec63340"
+          }
+        },
+        {
+          "client_id": "943688374774-9sa6l0ci7965elb0lemi4b8icfqhh32e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvyoWwMrSkm_GAssvxndkqk9o4mJBsptk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943688374774-9sa6l0ci7965elb0lemi4b8icfqhh32e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
